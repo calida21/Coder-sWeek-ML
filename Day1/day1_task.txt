@@ -1,0 +1,94 @@
+Explaining machine learning to Granny
+
+Many a times we find difficult explaining  artificial intelligence to older generation or find articles that are too high to understand.I will try and explain 
+Machine learning and deep learning with real life examples. 
+
+
+What is artificial intelligence?
+Artificial Intelligence involves teaching a machine to do tasks. Its just the same as how we teach a baby to say “Mom” , “Dad” or to stand and walk or differentiate 
+between colours etc. We human have a complex and a wonderful organ which is the brain. It has a dense biological neural network. This network helps us to take decision,
+classify a bunch of objects based on colour ,texture shape etc. Similarly to make machines smart, it has artificial neural network , which needs to be taught, trained 
+inorder to make desicion or predict future. 
+
+What are some examples of AI?
+A popular example would auatonomous car that would drive the passenger to its destination without a driver.Predicting emotions and mood of a person, separating out spam emails etc
+
+
+Here are some basic definition of Artificial learning,Machine Learning and Deep Learning
+1.Artifical intelligence(AI) involves making machines smart. It enables computer/machine to mimic human behavior. These machine could be a car, fridge etc.
+
+2.Machine Learning (ML) is a subset of AI. It  refers to systems that can learn by themselves without being explicitl to do so.
+
+3.Deep Learning(DL) is a subset of ML which is similar to ML but has dense neural network. An example would be google translate. It’s a an application which 
+can translate whatever you speak or type into any language.
+Lets look ML in detail.
+
+
+Machine Learnng
+Machine learning model identify patterns and predict outcomes based on the input dataset.Huge data  related to customers, business operations, or financials are 
+collected to train a model.
+some application of ML are online fraud detection,product recommendation,traffic prediction etc
+ 
+Just like there are various styles to teach a child, ML has three model/style of learning.
+
+1.Supervised Learning: To teach a child to differentiate and recognise the colour red from blue, the teacher would show a red car, red pen, red ball. 
+And to teach the child to recognize the colour blue ,she would show blue car,blue pen, blue ball. This is the learning phase. To check if the child has  
+understood to differentiate between red and blue colour, the teacher shows a red box and asks the child to name the colour of it. If the child says blue then the 
+teacher teaches the child again with more examples. Testing gives feedback. In terms of machine, the user would give data (eg different shape objects) and 
+label(eg colours) for the machine to learn. We then  test the machine for accuracy and  feedback.
+Techniques under supervised learning
+A.	Regression: An example of regression is predicting price of a 3BHK.
+B.	Classification: An example of classification is classifying a dot as either red dot or blue dot 
+
+2.Unsupervised Learning: suppose a student hasn’t attended a single linear algebra lecture. Before the exam, he is provided with notes and decides to 
+study that chapter on his own. Looking at all the solved examples , he notes a pattern in the solution. Since he decides to do self study, there’s no feedback.
+For exam, he solves the problem with the same pattern . in terms of ML, the machine is provided with unlabeled, uncategorised data and machine on its own learns 
+and find similarity between the data.
+Techiques under unsupervised learning 
+A.	Clustering :  grouping similar things together. if you present various news articles to a human, it groups the articles into sports new, business, 
+entertainment etc
+B.	Association: when you go to a cothing store for the sole purpose of only buying a kurta but the shopkeeper suggests various matching leggings that would go 
+along with it.
+
+3.Reinforcement Learning: If a child completes his homework he is rewarded with chocolate If he doesn’t complete his homework, he doesn’t get a chocolate. 
+Over time he learns that only if he completes his homework , he gets a chocolate.
+Deep Learning
+When DL is  applied to a machine it allows the network to learn without human supervision from unstructured data (data that isn’t classified or labeled).  
+The difference between ML and DL is that DL has a dense artificial neural network.
+
+
+Analogy between biological neuron and artificial neuron
+Neuron are fundamental basic unit of neural networks.Natural neurons have  four basic components. These components are known by their biological names - 
+dendrites, soma, axon, and synapses. Dendrites are hair-like extensions of the soma which act like input channels. These input channels receive their input 
+through the synapses of other neurons. The soma then processes these incoming signals over time. The soma then turns that processed value into an output which 
+is sent out to other neurons through the axon and the synapses. Artificial neuron have some basic component.
+1.Input nodes: each node has a numeric value. In terms of image it could be a number associated with a colour.
+2.Connections-a path that departs from the input nodes has a weight (w) associated with it and this can be any real number. The ANN runs and propagates 
+millions of times to optimize these “w” values. The weights are changed to get accurate result. This is similar to buying a t-shirt from an online site. 
+If you order a large size tshirt and it turns out to be loose , the next time you purchase a small size tshirt to fit you properly. 
+3.Each input node value and weight is multiplied and added together .They are used as inputs for a weighted sum.
+4.This result will be the input for a transfer or activation function. Just like how we feel the pain of a pinch, when we exceed our threshold capacity 
+to endure this pain, the artificial neuron will also only fire when the sum of the inputs exceeds a threshold. This is how the activation function works. 
+5.As a result, you have the output node, which is associated with the function of the weighted sum of the input nodes.
+
+Convolutional neural networks (CNN): These are used for image/video processing or computer vision applications. CNNs are deep artificial neural networks that 
+are used primarily to classify images (e.g. label what they see), cluster them by similarity (photo search), and perform object recognition within scenes.
+To train the machine using CNN to differentiate between a dog and cat image, we give thousands of images of dogs and cats with  pre-defined labels(i.e dog and cat). 
+The model first makes a forward pass i.e takes all the sliced pieces of images and calculates the initial weights, makes a prediction of the outcome label 
+(i.e. this is a dog) and compares it with the predefined label that is the existing training set labels. Because this is a training set we already know the 
+outcome labels thus depending on the success of the prediction, a loss function which is difference between the actual and predicted value is calculated and the 
+network goes backward to update its weight.The way the computer is able to adjust its weights to decrease the error is through a method called back propagation. 
+Now the model performs a backward pass through the network, which is determining which weights contributed most to the error and finding ways to fine tune these 
+weights so that the loss decreases thru consecutive passes. The above is the training phase. The error or the loss function reduces with training.
+We then test the model with a new image of a cat to see if its able to identify it correctly. This is the testing phase.
+
+Recursive (Recurrent) Neural Networks (RNN):  here the model predicts the output more accurately with the help of the  knowledge of the previous input history. 
+For example when a child starts to go to church every Sunday , he starts to predict the prayers said by the priest by the third Sunday.
+
+
+Natural Language Processing (NLP)
+It’s the ability of a machine to understand human language and process it for various application. It has ability to convert human speech into text, run chatbots. 
+A popular example would be Siri, Alexa etc
+
+
+
